@@ -148,9 +148,6 @@ header {
 .tn-btn.active {
 	color: var(--green);
 }
-.tn-btn:hover {
-	color: #fff;
-}
 /*-e-header---------------------*/
 
 /*-b-footer---------------------*/
@@ -326,7 +323,7 @@ a.through {
 }
 iframe {
 	width: 740px;
-	min-width: 740px;
+	max-width: calc(100vw - 30px);
 	height: 990px;
 	max-width: 100%;
 	padding: 0 0 30px;
@@ -347,6 +344,9 @@ iframe {
 
 
 @media screen and (min-width: 768px) {
+	.tn-btn:hover {
+		color: #fff;
+	}
 	/*-b-switcher---------------------------------------*/
 	.pitem:nth-child(2n + 1) {
 		margin: 0 auto 30px 0;
