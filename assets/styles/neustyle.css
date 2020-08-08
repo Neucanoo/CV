@@ -2,11 +2,24 @@
 .swparent {
 	position: relative;
 	overflow: hidden;
+	transition: height 0.6s ease;
 }
 .swelem {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
+	visibility: hidden;
+	user-select: none;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.3s ease 0s, visibility 0s linear 0.3s;
+}
+.swelem.active {
+	visibility: visible;
+	user-select: auto;
+	pointer-events: auto;
+	opacity: 1;
+	transition: opacity 0.3s ease 0.3s, visibility 0s linear 0s;
 }
 /*-e-switcher---------------------------------------*/

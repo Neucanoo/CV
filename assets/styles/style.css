@@ -320,6 +320,20 @@ a.through {
 	transition: opacity 0.3s ease 0.25s;
 }
 
+.doc {
+	display: flex;
+	justify-content: center;
+}
+iframe {
+	width: 740px;
+	height: 990px;
+	max-width: 100%;
+	padding: 0 0 30px;
+	border: unset;
+	flex-shrink: 0;
+	box-sizing: content-box;
+}
+
 /*-e-switcher---------------------------------------*/
 
 
