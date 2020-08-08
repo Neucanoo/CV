@@ -326,6 +326,7 @@ a.through {
 }
 iframe {
 	width: 740px;
+	min-width: 740px;
 	height: 990px;
 	max-width: 100%;
 	padding: 0 0 30px;
