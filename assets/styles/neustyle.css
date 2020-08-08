@@ -1,0 +1,12 @@
+/*-b-switcher---------------------------------------*/
+.swparent {
+	position: relative;
+	overflow: hidden;
+}
+.swelem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+/*-e-switcher---------------------------------------*/
