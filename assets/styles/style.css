@@ -376,3 +376,18 @@ iframe {
 		margin: 0 auto 30px;
 	}
 }
+
+@media screen and (max-width: 540px) {
+	footer .row {
+		flex-direction: column;
+		align-items: center;
+	}
+	.copyright,
+	.telto,
+	.mailto {
+		margin: 0 0 10px;
+	}
+	.author {
+		margin: 0;
+	}
+}
