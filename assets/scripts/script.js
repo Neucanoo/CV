@@ -1,7 +1,7 @@
 var switcher = undefined;
 onDom.push(function() {
 	switcher = new Switcher({
-		buttons: document.querySelectorAll("#top-nav button"),
+		buttons: document.querySelectorAll(".tn-btn"),
 		elemsParent: document.getElementsByClassName("swparent")[0],
 		elems: document.getElementsByClassName("swelem"),
 		onInited: function() {

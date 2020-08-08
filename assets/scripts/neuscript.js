@@ -68,7 +68,8 @@ class Switcher {
 		this.buttons[0].classList.add("active");
 		for (var i = 0; i < this.amount; i++) {
 			const ci = i;
-			this.buttons[ci].onclick = () => {
+			this.buttons[ci].onclick = (e) => {
+				e.preventDefault();
 				this.switchTo(ci);
 			}
 		}
