@@ -323,13 +323,13 @@ a.through {
 }
 iframe {
 	width: 740px;
-	max-width: calc(100vw - 30px);
 	height: 990px;
-	max-width: 100%;
+	max-width: calc(100vw - 30px);
 	padding: 0 0 30px;
 	border: unset;
 	flex-shrink: 0;
 	box-sizing: content-box;
+	overflow: auto;
 }
 
 /*-e-switcher---------------------------------------*/
@@ -375,10 +375,6 @@ iframe {
 	.pitem {
 		width: 585px;
 		margin: 0 auto 30px;
-	}
-
-	.doc {
-		overflow: scroll;
 	}
 }
 
