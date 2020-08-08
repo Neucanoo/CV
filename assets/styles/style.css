@@ -387,6 +387,10 @@ iframe {
 	.mailto {
 		margin: 0 0 10px;
 	}
+	.copyright {
+		order: 4;
+		margin: 10px 0 0;
+	}
 	.author {
 		margin: 0;
 	}
