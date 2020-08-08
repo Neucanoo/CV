@@ -375,6 +375,10 @@ iframe {
 		width: 585px;
 		margin: 0 auto 30px;
 	}
+
+	.doc {
+		overflow: scroll;
+	}
 }
 
 @media screen and (max-width: 540px) {
