@@ -322,8 +322,8 @@ a.through {
 	justify-content: center;
 }
 iframe {
-	width: 740px;
-	height: 990px;
+	width: 750px;
+	height: 1020px;
 	max-width: calc(100vw - 30px);
 	padding: 0 0 30px;
 	border: unset;
