@@ -222,11 +222,14 @@ footer .row {
 	background-color: rgba(232, 232, 232, 1);
 	color: var(--blue);
 	opacity: 0.3;
-	font-size: 64px;
+	font-size: min(64px, 5vw);
 	font-weight: 900;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
 }
 .pitem {
 	position: relative;
@@ -390,6 +393,9 @@ iframe {
 	.pitem {
 		width: 585px;
 		margin: 0 auto 30px;
+	}
+	.p-indev {
+		font-size: min(48px, 10vw);
 	}
 
 }
