@@ -240,6 +240,8 @@ footer .row {
 	/* height: 400px; */
 	height: 285px; /*285.796875000*/
 }
+
+
 /* .pitem:before {
 	content: "";
 	position: absolute;
@@ -259,6 +261,13 @@ footer .row {
 	height: 100%;
 	object-fit: cover;
 	object-position: top center;
+}
+.pitem img[src*="noimg.png"] {
+	top: 10%;
+	object-fit: contain;
+	object-position: center;
+	height: 80%;
+	opacity: 0.2;
 }
 
 .pitem-text {
