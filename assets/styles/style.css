@@ -240,6 +240,13 @@ footer .row {
 	/* height: 400px; */
 	height: 285px; /*285.796875000*/
 }
+.ptext {
+	width: 100%;
+	margin: 0 0 30px;
+	background-color: var(--pitembg);
+	padding: 20px;
+	color: #fff;
+}
 
 
 /* .pitem:before {
@@ -349,8 +356,8 @@ a.through {
 	justify-content: center;
 }
 iframe {
-	width: 750px;
-	height: 1100px;
+	width: 820px;
+	height: 1200px;
 	max-width: calc(100vw - 30px);
 	padding: 0 0 30px;
 	border: unset;
